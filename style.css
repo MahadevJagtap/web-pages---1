@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+html,body{
+         width: 100%;
+         height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.top{
+    /* background-color: red; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    font-size:14px ;
+    font-weight: 400;
+    gap: 35px;
+    padding: 0 40px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.top i{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding: 8px 9px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.center p{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 450;
+    line-height: 70px;
+   margin: 0px 100px;
+}
+.center-in{
+    /* background-color: red;  */
+    width: 100%;
+    height: 25%;
+    padding:  10px 0px;
+   padding-left: 100px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    width: 25%;
+    padding-right: 50px;
+}
+.elem {
+    /* background-color: yellow; */
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration:none ;
+    border-top: 2px solid black;
+}
+.elem a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+   
+    font-weight: 500;
+    
+}
+.elem i{
+   opacity: 0;
+   
+}
+.elem:hover i{
+    opacity: 1;
+  
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+
+.buttom{
+    /* background-color: blue; */
+    width: 100%;
+    height: 27.6%;
+    background-size: cover;
+    background-position: 0 30%;
+    background-image: url("https://images.unsplash.com/photo-1720599411841-48f304e7ee7a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+@media (max-width:600px) {
+    .top{
+        /* background-color: red; */
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:end;
+        font-size:3vw ;
+        font-weight: 400;
+        gap: 4vw;
+        padding:0px 6vw;
+        font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .top i{
+        background-color: black;
+        width: 9vw;
+        height: 9vw;
+        color: white;
+        padding: 1.7vw 1.9vw;
+        border-radius: 50%;
+        font-size: 5vw;
+        font-weight: 550;
+    }
+    
+.center p{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10vw;
+    font-weight: 450;
+    line-height: 10vw;
+   margin: 0px 15px;
+}
+.center-in{
+    /* background-color: red;  */
+    width: 100%;
+    height: 25%;
+    padding:  15px 0px;
+   padding-left: 15px;
+    line-height: 5vw;
+    font-size: 3vw;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    width: 100%;
+    padding-top: 3vw;
+}
+.elem {
+    display: flex;
+    text-decoration:none ;
+    border-top: 1.4px solid black;
+    line-height: 7vw;
+}
+.elem a{
+    text-decoration: none;
+    color: black;
+    font-size: 4vw;
+    font-weight: 500;
+    
+}
+.elem i{
+   opacity: 1;
+   font-size: 14px;
+   
+}.buttom{
+    /* background-color: blue; */
+    width: 100%;
+    height: 33.9%;
+    margin-top: 25%;
+    background-size: cover;
+    background-position: 0 30%;
+    background-image: url("https://images.unsplash.com/photo-1720599411841-48f304e7ee7a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+}
